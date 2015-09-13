@@ -1,0 +1,8 @@
+.apm
+.node-gyp
+.npm
+atom-shell
+compile-cache
+nohup.out
+packages
+storage

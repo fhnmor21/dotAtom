@@ -1,0 +1,19 @@
+@import "packages/file-icons/styles/colors"; // to use the colours
+@import "packages/file-icons/styles/icons";  // to use the defined icons
+@import "packages/file-icons/styles/items";
+
+.file-icons-tab-pane-icon @{pane-tab-selector}, .icon-file-text  {
+  &[data-name$=".c"]:before   { .my-c-icon; } // Colours icon only
+  &[data-name$=".cpp"]:before   { .my-cpp-icon; } // Colours icon only
+  &[data-name$=".ipp"]:before   { .my-ipp-icon; } // Colours icon only
+  &[data-name$=".h"]:before   { .my-h-icon; } // Colours icon only
+  &[data-name$=".hpp"]:before   { .my-hpp-icon; } // Colours icon only
+  &[data-name$=".mpp"]:before   { .my-mpp-icon; } // Colours icon only
+}
+
+.my-c-icon        { .mf; content: "\f10e"; }
+.my-cpp-icon      { .mf; content: "\f101"; }
+.my-ipp-icon      { .mf; content: "\f101"; }
+.my-h-icon        { .mf; content: "\f10e"; }
+.my-hpp-icon      { .mf; content: "\f101"; }
+.my-mpp-icon      { .mf; content: "\f105"; }

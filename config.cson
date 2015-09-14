@@ -8,7 +8,7 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-    fontSize: 16
+    fontSize: 17
   core:
     themes: [
       "atom-solarized-dark-ui"
@@ -19,8 +19,6 @@
       "metrics"
       "release-notes"
       "vim-mode"
-      "linter-pylama"
-      "symbols-view"
     ]
   "autocomplete-python":
     addBracketAfterFunction: true
@@ -31,7 +29,7 @@
     _analyticsUserId: "9c7a7007-3465-40da-be07-6bb0c52b094c"
   linter: {}
   "linter-pylama":
-    executablePath: "/usr/bin/pylama"
+    executablePath: "/usr/local/bin/pylama"
   "vim-mode": {}
   minimap:
     absoluteMode: true

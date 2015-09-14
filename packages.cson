@@ -21,7 +21,6 @@ packages: [
   "minimap"
   "minimap-git-diff"
   "minimap-highlight-selected"
-  "monokai"
   "package-sync"
   "preview"
   "script"
@@ -32,5 +31,4 @@ packages: [
   "switch-header-source"
   "symbol-gen"
   "symbols-tree-view"
-  "sync-settings"
 ]

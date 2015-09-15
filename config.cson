@@ -8,7 +8,9 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-    fontSize: 17
+    fontSize: 16
+    softTabs: false
+    tabLength: 4
   core:
     themes: [
       "atom-solarized-dark-ui"

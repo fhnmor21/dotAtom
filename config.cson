@@ -8,8 +8,7 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-    fontSize: 16
-    softTabs: false
+    fontSize: 17
     tabLength: 4
   core:
     themes: [

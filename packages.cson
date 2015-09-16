@@ -1,7 +1,6 @@
 packages: [
   "atom-beautify"
   "atom-coffee-repl"
-  "atom-monokai"
   "atom-solarized-dark-ui"
   "autocomplete-clang"
   "autocomplete-python"
@@ -13,6 +12,7 @@ packages: [
   "git-plus"
   "highlight-line"
   "highlight-selected"
+  "keybinding-cheatsheet"
   "linter"
   "linter-clang"
   "linter-pylama"
@@ -21,6 +21,7 @@ packages: [
   "minimap"
   "minimap-git-diff"
   "minimap-highlight-selected"
+  "monokai"
   "package-sync"
   "preview"
   "script"

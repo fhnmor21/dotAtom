@@ -1,54 +1,28 @@
 "*":
   "exception-reporting":
-    userId: "65ee15e2-4f27-b2c7-5148-ce1f21ae4579"
+    userId: "c3292567-71f3-72b4-a0b1-919c653d5645"
   welcome:
     showOnStartup: false
-  editor:
-    invisibles: {}
-    showIndentGuide: true
-    showInvisibles: true
-    softWrap: true
-    fontSize: 17
-    tabLength: 4
   core:
+    disabledPackages: [
+      "minimap-git-diff"
+      "minimap-highlight-selected"
+      "minimap"
+    ]
     themes: [
       "atom-solarized-dark-ui"
       "solarized-dark-syntax"
     ]
-    disabledPackages: [
-      "script"
-      "metrics"
-      "release-notes"
-      "vim-mode"
-    ]
-  "autocomplete-python":
-    addBracketAfterFunction: true
-    addDotAfterModule: true
-  "linter-pylint":
-    executable: "/usr/bin/pylint"
-  "atom-beautify":
-    _analyticsUserId: "9c7a7007-3465-40da-be07-6bb0c52b094c"
-  linter: {}
-  "linter-pylama":
-    executablePath: "/usr/local/bin/pylama"
-  "vim-mode": {}
+  editor:
+    invisibles: {}
+    softTabs: false
+    tabLength: 4
+    showInvisibles: true
+    showIndentGuide: true
+    fontSize: 16
+    tabType: "hard"
   minimap:
-    absoluteMode: true
     plugins:
       "git-diff": true
       "highlight-selected": true
-  "symbols-tree-view":
-    autoToggle: true
-  "switch-header-source": {}
-  "atom-ctags":
-    buildTimeout: 9000000
-    extraTagFiles: "~/compile/2/current/programming/bigworld/tags"
-  "highlight-selected": {}
-  "autocomplete-clang":
-    ignoreClangErrors: false
-  "linter-clang": {}
-  "sync-settings":
-    _analyticsUserId: "29470a7c-7a59-4d09-ae7b-963157981955"
-    personalAccessToken: "ad462ee439c86508d26817e10eb87324d6c2b26a"
-    gistId: "atom_settings"
-    syncKeymap: false
+  "git-plus": {}

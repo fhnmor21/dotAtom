@@ -16,6 +16,7 @@ packages: [
   "language-cmake"
   "linter"
   "linter-clang"
+  "linter-cppcheck"
   "linter-flake8"
   "linter-gcc"
   "linter-pep8"

@@ -1,0 +1,10 @@
+'atom-text-editor':
+  'alt-h': 'multi-cursor-plus:move-left'
+
+'atom-workspace':
+  # Key bindings for multi-cursor
+  'alt-x': 'multi-cursor-plus:mark'
+  'alt-j': 'multi-cursor-plus:move-up'
+  'alt-k': 'multi-cursor-plus:move-down'
+  'alt-h': 'multi-cursor-plus:move-left'
+  'alt-l': 'multi-cursor-plus:move-right'

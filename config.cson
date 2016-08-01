@@ -1,28 +1,69 @@
 "*":
-  "exception-reporting":
-    userId: "c3292567-71f3-72b4-a0b1-919c653d5645"
-  welcome:
-    showOnStartup: false
+  "atom-beautify":
+    _analyticsUserId: "bbf67f2f-23c1-4832-8972-a1c324773323"
+  "atom-fuzzy-grep":
+    grepCommandString: "ack -i --nocolor --nogroup --column"
+    preserveLastSearch: true
+    showFullPath: true
+  "autocomplete-clang":
+    clangCommand: "/home/flaviom/Local/bin/clang"
+  "clang-format":
+    formatCOnSave: false
+    formatCPlusPlusOnSave: false
   core:
     disabledPackages: [
-      "minimap-git-diff"
-      "minimap-highlight-selected"
-      "minimap"
+      "linter-pylama"
+      "clang-format"
+      "linter-pep8"
+      "linter-pylint"
+      "linter-flake8"
+      "linter-gcc"
     ]
     themes: [
       "atom-solarized-dark-ui"
       "solarized-dark-syntax"
     ]
   editor:
+    fontSize: 15
     invisibles: {}
-    softTabs: false
-    tabLength: 4
-    showInvisibles: true
     showIndentGuide: true
-    fontSize: 16
+    showInvisibles: true
+    softTabs: false
+    softWrap: true
+    tabLength: 4
     tabType: "hard"
+  "exception-reporting":
+    userId: "c3292567-71f3-72b4-a0b1-919c653d5645"
+  "file-types":
+    ".mak$": "source.makefile"
+    "Makefile.rules": "source.makefile"
+    "Makefile.sites": "source.makefile"
+  "git-plus": {}
+  "julia-client":
+    enableMenu: true
+    enableToolBar: true
+    errorsToConsole: true
+    launchOnStartup: true
+  jumpy: {}
+  linter: {}
+  "linter-clang": {}
+  "linter-gcc": {}
   minimap:
+    absoluteMode: true
     plugins:
       "git-diff": true
+      "git-diffDecorationsZIndex": 0
       "highlight-selected": true
-  "git-plus": {}
+      "highlight-selectedDecorationsZIndex": 0
+  "tool-bar":
+    position: "Left"
+    visible: false
+  "uber-juno":
+    disable: true
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  "vim-mode-plus": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false

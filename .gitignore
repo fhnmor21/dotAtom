@@ -6,3 +6,8 @@ compile-cache
 nohup.out
 packages
 storage
+config.cson
+blob-store
+config_cson
+electron
+
